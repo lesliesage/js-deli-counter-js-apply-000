@@ -47,8 +47,8 @@ Increment the tickets by 1.
 Someone's place in line doesn't match their ticket number. 
 */
 
-  tN = 
-  lN = 
+tN = 
+lN = 
 function newTicketMachine (line) {
 
   cL = []
