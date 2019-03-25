@@ -47,14 +47,9 @@ Increment the tickets by 1.
 Someone's place in line doesn't match their ticket number. 
 */
 
-tN = 1
-lN = 1
+tN = 0
+lN = 0
 function newTicketMachine (line) {
-  cL = []
-  var nP = max(line) + 1
-  if (cL.length === 0) {
-    line = [1]} else {
-    line = cL.push(nP)
-  }
-  return `You are ticket number ${} and number ${} in line.`
+    line.push(tN++)
+return `You are ticket number ${tN} and number ${line.length} in line.`
 } 
