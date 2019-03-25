@@ -54,7 +54,7 @@ function newTicketMachine (line) {
   var nP = max(line) + 1
   if (cL.length === 0) {
     line = [1]} else {
-    line = line.push(nP)
+    line = cL.push(nP)
   }
   
 } 
