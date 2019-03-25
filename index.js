@@ -48,12 +48,8 @@ Someone's place in line doesn't match their ticket number.
 */
 
 function newTicketMachine (line) {
-  if(line.length === 0) {
-    return 'Line is empty.'
-  } else {
-    currentLine = []
-    var ticketID = 1
-    var counter = 1
-  }
-  }
+  cL = []
+  var ticketID = 1
+  var counter = 1
+  
 } 
