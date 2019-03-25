@@ -18,11 +18,11 @@ function currentLine (katzDeliLine) {
     return 'The line is currently empty.'
     } else {
   var i = 1
-  var line = '1. ' + katzDeliLine[0]
+  var line = 'The line is currently: 1. ' + katzDeliLine[0]
   while (i < katzDeliLine.length) {
     line = line.concat(', ' + (i+1) + '. ' + katzDeliLine[i])
     i++
     }
-  return 'The line is currently: ' + line
+  return line
   }
 }
