@@ -52,5 +52,8 @@ function newTicketMachine (line) {
   var ticketID = 1
   var counter = 1
   var nP = max(line) + 1
-  
+  if (cL.length === 0) {
+    line = [1]} else {
+    line = line.push(nP)
+  }
 } 
