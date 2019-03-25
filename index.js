@@ -56,4 +56,5 @@ function newTicketMachine (line) {
     line = [1]} else {
     line = line.push(nP)
   }
+  
 } 
