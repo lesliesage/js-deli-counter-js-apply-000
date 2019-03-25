@@ -51,5 +51,6 @@ function newTicketMachine (line) {
   cL = []
   var ticketID = 1
   var counter = 1
+  var nP = max(line) + 1
   
 } 
